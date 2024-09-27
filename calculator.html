@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="./Assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Assets/css/styles.css" />
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div id="calculator">
+    <div id="theame-head">
+      <label class="ui-switch">
+        <input type="checkbox">
+        <div class="slider">
+          <div class="circle"></div>
+        </div>
+      </label>
+      <label style="padding-left: 8px;">Switch to Light</label>
+    </div>
+
+    <input type="text" id="display" disabled />
+
+    <div id="liner"></div>
+
+    <div class="calc-keys">
+
+      <button type="button" class="operator" value="+">+</button>
+      <button type="button" class="operator" value="-">-</button>
+      <button type="button" class="operator" value="/">÷</button>
+      <button type="button" class="operator" value="*">×</button>
+
+      <button type="button" class="all-clear" value="*">AC</button>
+
+      <button type="button" value=".">.</button>
+      <button type="button" value="0">0</button>
+      <button type="button" value="1">1</button>
+      <button type="button" value="2">2</button>
+      <button type="button" value="3">3</button>
+      <button type="button" value="4">4</button>
+      <button type="button" value="5">5</button>
+      <button type="button" value="6">6</button>
+      <button type="button" value="7">7</button>
+      <button type="button" value="8">8</button>
+      <button type="button" value="9">9</button>
+
+      <button type="button" class="equal" value="=">=</button>
+    </div>
+  </div>
+  <script src="./Assets/js/calculator-app.js"></script>
+  <script src="./Assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
